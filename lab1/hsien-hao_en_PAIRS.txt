@@ -1,0 +1,389 @@
+UDScore {udScore = 0.375, udMatching = 0, udTotalLength = 24, udSamesLength = 9, udPerfectMatch = 0}
+1  United  _  PROPN  _  _  2  compound                 1  United  _  PROPN  _  _  2  compound
+2  States  _  PROPN  _  _  3  compound                 2  States  _  PROPN  _  _  3  compound
+3  troops  _  NOUN  _  _  5  nsubj                     3  troops  _  NOUN  _  _  5  nsubj
+4  now  _  ADV  _  _  5  advmod                        4  now  _  ADV  _  _  5  advmod
+5  carry  _  VERB  _  _  0  root                       5  carry  _  VERB  _  _  0  root
+6  atropine  _  NOUN  _  _  5  obj                     6  atropine  _  NOUN  _  _  5  obj
+7  and  _  CCONJ  _  _  8  cc                          7  and  _  CCONJ  _  _  8  cc
+8  autoinjectors  _  NOUN  _  _  6  conj               8  autoinjectors  _  NOUN  _  _  6  conj
+9  in  _  ADP  _  _  13  case                     |    9  in  _  ADP  _  _  14  case		# this shows as mistakes because you had "-" as an extra token
+10  their  _  PRON  _  _  13  nmod:poss           |    10  their  _  PRON  _  _  14  nmod:poss	
+11  first  _  ADJ  _  _  12  compound             |    11  first  _  ADJ  _  _  13  amod
+12  aid  _  NOUN  _  _  13  compound              |    12  -  _  PUNCT  _  _  13  punct
+13  kits  _  NOUN  _  _  5  obl                   |    13  aid  _  NOUN  _  _  14  compound
+14  to  _  PART  _  _  15  mark                   |    14  kits  _  NOUN  _  _  5  obl
+15  use  _  VERB  _  _  5  advcl                  |    15  to  _  PART  _  _  16  mark
+16  in  _  ADP  _  _  17  case                    |    16  use  _  VERB  _  _  5  advcl
+17  case  _  NOUN  _  _  15  obl                  |    17  in  _  ADP  _  _  18  case
+18  of  _  ADP  _  _  22  case                    |    18  case  _  NOUN  _  _  16  obl
+19  organophosphate  _  NOUN  _  _  20  compound  |    19  of  _  ADP  _  _  23  case
+20  nerve  _  NOUN  _  _  21  compound            |    20  organophosphate  _  NOUN  _  _  22  compound
+21  agent  _  NOUN  _  _  22  compound            |    21  nerve  _  NOUN  _  _  22  compound
+22  poisoning  _  NOUN  _  _  17  nmod            |    22  agent  _  NOUN  _  _  23  compound
+
+UDScore {udScore = 0.6363636363636364, udMatching = 0, udTotalLength = 22, udSamesLength = 14, udPerfectMatch = 0}
+1  his  _  PRON  _  _  3  nmod:poss     |    1  His  _  PRON  _  _  2  nmod:poss	
+2  ingenuous  _  ADJ  _  _  3  amod     |    2  ingenuous  _  ADV  _  _  2  amod		# both these heads should be 3, the NOUN
+3  explanation  _  NOUN  _  _  0  root       3  explanation  _  NOUN  _  _  0  root
+4  that  _  SCONJ  _  _  9  mark        |    4  that  _  PRON  _  _  9  mark
+5  he  _  PRON  _  _  9  nsubj               5  he  _  PRON  _  _  9  nsubj
+6  would  _  AUX  _  _  9  aux               6  would  _  AUX  _  _  9  aux
+7  not  _  PART  _  _  9  advmod             7  not  _  PART  _  _  9  advmod
+8  have  _  AUX  _  _  9  aux                8  have  _  AUX  _  _  9  aux
+9  burned  _  VERB  _  _  3  acl        |    9  burned  _  VERB  _  _  3  ccomp
+10  the  _  DET  _  _  11  det               10  the  _  DET  _  _  11  det
+11  church  _  NOUN  _  _  9  obj            11  church  _  NOUN  _  _  9  obj
+12  if  _  SCONJ  _  _  16  mark             12  if  _  SCONJ  _  _  16  mark
+13  he  _  PRON  _  _  16  nsubj             13  he  _  PRON  _  _  16  nsubj
+14  had  _  AUX  _  _  16  aux               14  had  _  AUX  _  _  16  aux
+15  not  _  PART  _  _  16  advmod           15  not  _  PART  _  _  16  advmod
+16  thought  _  VERB  _  _  9  advcl         16  thought  _  VERB  _  _  9  advcl
+17  the  _  DET  _  _  18  det               17  the  _  DET  _  _  18  det
+18  bishop  _  NOUN  _  _  21  nsubj         18  bishop  _  NOUN  _  _  21  nsubj
+19  was  _  AUX  _  _  21  cop               19  was  _  AUX  _  _  21  cop
+20  in  _  ADP  _  _  21  case          |    20  in  _  ADP  _  _  21  ccomp			# ADP are most often a "case", "ccomp" is only for the head of the clause
+21  it  _  PRON  _  _  16  ccomp             21  it  _  PRON  _  _  16  ccomp
+
+
+UDScore {udScore = 0.7142857142857143, udMatching = 1, udTotalLength = 14, udSamesLength = 10, udPerfectMatch = 0}
+1  It  _  PRON  _  _  4  nsubj                  1  It  _  PRON  _  _  4  nsubj
+2  's  _  AUX  _  _  4  cop                     2  's  _  AUX  _  _  4  cop
+3  most  _  ADV  _  _  4  advmod                3  most  _  ADV  _  _  4  advmod
+4  obvious  _  ADJ  _  _  0  root               4  obvious  _  ADJ  _  _  0  root
+5  when  _  SCONJ  _  _  13  mark          |    5  when  _  SSUBJ  _  _  13  advmod
+6  a  _  DET  _  _  7  det                      6  a  _  DET  _  _  7  det
+7  celebrity  _  NOUN  _  _  9  nmod:poss  |    7  celebrity  _  NOUN  _  _  9  label
+8  's  _  PART  _  _  7  case              |    8  's  _  PART  _  _  9  label
+9  name  _  NOUN  _  _  13  nsubj               9  name  _  NOUN  _  _  13  nsubj
+10  is  _  AUX  _  _  13  cop                   10  is  _  AUX  _  _  13  cop
+11  initially  _  ADV  _  _  13  advmod         11  initially  _  ADV  _  _  13  advmod
+12  quite  _  ADV  _  _  13  advmod        |    12  quite  _  ADV  _  _  12  advmod		# this is clearly a typo, the arrow can't point to itself !
+13  rare  _  ADJ  _  _  4  advcl                13  rare  _  ADJ  _  _  4  advcl
+14  .  _  PUNCT  _  _  4  punct                 14  .  _  PUNCT  _  _  4  punct
+
+UDScore {udScore = 0.7272727272727273, udMatching = 0, udTotalLength = 11, udSamesLength = 8, udPerfectMatch = 0}
+1  the  _  DET  _  _  2  det            |    1  The  _  DET  _  _  2  det
+2  casings  _  NOUN  _  _  4  nsubj          2  casings  _  NOUN  _  _  4  nsubj
+3  had  _  AUX  _  _  4  aux                 3  had  _  AUX  _  _  4  aux
+4  rotted  _  VERB  _  _  0  root            4  rotted  _  VERB  _  _  0  root
+5  away  _  ADP  _  _  4  compound:prt  |    5  away  _  ADV  _  _  4  advmod
+6  and  _  SCONJ  _  _  10  cc          |    6  and  _  CCONJ  _  _  10  cc			# oops! this was MY mistake, and is always a CCONJ =D
+7  had  _  AUX  _  _  10  aux                7  had  _  AUX  _  _  10  aux
+8  to  _  PART  _  _  9  mark           |    8  to  _  PART  _  _  10  mark
+9  be  _  AUX  _  _  10  aux:pass            9  be  _  AUX  _  _  10  aux:pass
+10  replaced  _  VERB  _  _  4  conj         10  replaced  _  VERB  _  _  4  conj
+
+UDScore {udScore = 0.7391304347826086, udMatching = 0, udTotalLength = 23, udSamesLength = 17, udPerfectMatch = 0}
+1  she  _  PRON  _  _  3  nsubj     |    1  She  _  PRON  _  _  3  nsubj
+2  was  _  AUX  _  _  3  cop             2  was  _  AUX  _  _  3  cop
+3  incensed  _  ADJ  _  _  0  root  |    3  incensed  _  VERB  _  _  0  root			# this is a VERB participle, acting as an ADJ, can be tagged both ways
+4  that  _  SCONJ  _  _  11  mark   |    4  that  _  PRON  _  _  11  mark
+5  this  _  DET  _  _  6  det       |    5  this  _  DET  _  _  5  det
+6  chit  _  NOUN  _  _  11  csubj   |    6  chit  _  NOUN  _  _  11  nsubj
+7  of  _  ADP  _  _  9  case             7  of  _  ADP  _  _  9  case
+8  a  _  DET  _  _  9  det               8  a  _  DET  _  _  9  det
+9  girl  _  NOUN  _  _  6  nmod          9  girl  _  NOUN  _  _  6  nmod
+10  should  _  VERB  _  _  11  aux  |    10  should  _  AUX  _  _  11  aux
+11  dare  _  VERB  _  _  3  ccomp        11  dare  _  VERB  _  _  3  ccomp
+12  to  _  PART  _  _  13  mark          12  to  _  PART  _  _  13  mark
+13  make  _  VERB  _  _  11  xcomp  |    13  make  _  VERB  _  _  10  xcomp
+14  a  _  DET  _  _  15  det        |    14  a  _  DET  _  _  14  det
+15  fool  _  NOUN  _  _  13  obj         15  fool  _  NOUN  _  _  13  obj
+16  of  _  ADP  _  _  17  case           16  of  _  ADP  _  _  17  case
+17  her  _  PRON  _  _  15  nmod    |    17  her  _  PRON  _  _  13  obl
+18  in  _  ADP  _  _  19  case           18  in  _  ADP  _  _  19  case
+19  front  _  NOUN  _  _  13  obl        19  front  _  NOUN  _  _  13  obl
+20  of  _  ADP  _  _  22  case           20  of  _  ADP  _  _  22  case
+21  the  _  DET  _  _  22  det           21  the  _  DET  _  _  22  det
+22  class  _  NOUN  _  _  19  nmod       22  class  _  NOUN  _  _  19  nmod
+
+UDScore {udScore = 0.8181818181818182, udMatching = 0, udTotalLength = 11, udSamesLength = 9, udPerfectMatch = 0}
+1  this  _  DET  _  _  2  det       |    1  This  _  DET  _  _  2  det
+2  crime  _  NOUN  _  _  3  nsubj        2  crime  _  NOUN  _  _  3  nsubj
+3  carries  _  VERB  _  _  0  root       3  carries  _  VERB  _  _  0  root
+4  a  _  DET  _  _  5  det               4  a  _  DET  _  _  5  det
+5  penalty  _  NOUN  _  _  3  obj        5  penalty  _  NOUN  _  _  3  obj
+6  of  _  ADP  _  _  8  case             6  of  _  ADP  _  _  8  case
+7  five  _  NUM  _  _  8  nummod    |    7  five  _  ADJ  _  _  8  nummod
+8  years  _  NOUN  _  _  5  nmod         8  years  _  NOUN  _  _  5  nmod
+9  in  _  ADP  _  _  10  case            9  in  _  ADP  _  _  10  case
+10  prison  _  NOUN  _  _  5  nmod  |    10  prison  _  NOUN  _  _  8  nmod
+
+UDScore {udScore = 0.8181818181818182, udMatching = 0, udTotalLength = 11, udSamesLength = 9, udPerfectMatch = 0}
+1  the  _  DET  _  _  2  det           |    1  The  _  DET  _  _  2  det
+2  news  _  NOUN  _  _  4  nsubj:pass       2  news  _  NOUN  _  _  4  nsubj:pass
+3  was  _  AUX  _  _  4  aux:pass           3  was  _  AUX  _  _  4  aux:pass
+4  carried  _  VERB  _  _  0  root          4  carried  _  VERB  _  _  0  root
+5  to  _  ADP  _  _  7  case           |    5  to  _  PART  _  _  7  case
+6  every  _  ADJ  _  _  7  amod        |    6  every  _  DET  _  _  7  det
+7  village  _  NOUN  _  _  4  obl           7  village  _  NOUN  _  _  4  obl
+8  in  _  ADP  _  _  10  case               8  in  _  ADP  _  _  10  case
+9  the  _  DET  _  _  10  det               9  the  _  DET  _  _  10  det
+10  province  _  NOUN  _  _  7  nmod        10  province  _  NOUN  _  _  7  nmod
+
+UDScore {udScore = 0.8181818181818182, udMatching = 0, udTotalLength = 11, udSamesLength = 9, udPerfectMatch = 0}
+1  I  _  PRON  _  _  2  nsubj             1  I  _  PRON  _  _  2  nsubj
+2  carry  _  VERB  _  _  0  root          2  carry  _  VERB  _  _  0  root
+3  these  _  DET  _  _  4  det            3  these  _  DET  _  _  4  det
+4  thoughts  _  NOUN  _  _  2  obj        4  thoughts  _  NOUN  _  _  2  obj
+5  in  _  ADP  _  _  7  case              5  in  _  ADP  _  _  7  case
+6  the  _  DET  _  _  7  det              6  the  _  DET  _  _  7  det
+7  back  _  NOUN  _  _  2  obl       |    7  back  _  NOUN  _  _  3  obl
+8  of  _  ADP  _  _  10  case             8  of  _  ADP  _  _  10  case
+9  my  _  PRON  _  _  10  nmod:poss       9  my  _  PRON  _  _  10  nmod:poss
+10  head  _  NOUN  _  _  7  nmod          10  head  _  NOUN  _  _  7  nmod
+
+UDScore {udScore = 0.8181818181818182, udMatching = 0, udTotalLength = 11, udSamesLength = 9, udPerfectMatch = 0}
+1  Adam  _  PROPN  _  _  5  nsubj       |    1  Adam  _  PROPN  _  _  5  nsubj:pass
+2  would  _  AUX  _  _  5  aux               2  would  _  AUX  _  _  5  aux
+3  have  _  AUX  _  _  5  aux                3  have  _  AUX  _  _  5  aux
+4  been  _  AUX  _  _  5  aux:pass           4  been  _  AUX  _  _  5  aux:pass
+5  carried  _  VERB  _  _  0  root           5  carried  _  VERB  _  _  0  root
+6  over  _  ADP  _  _  5  compound:prt       6  over  _  ADP  _  _  5  compound:prt
+7  into  _  ADP  _  _  9  case               7  into  _  ADP  _  _  9  case
+8  the  _  DET  _  _  9  det                 8  the  _  DET  _  _  9  det
+9  life  _  NOUN  _  _  5  obl               9  life  _  NOUN  _  _  5  obl
+10  eternal  _  ADJ  _  _  9  amod           10  eternal  _  ADJ  _  _  9  amod
+
+UDScore {udScore = 0.8571428571428571, udMatching = 1, udTotalLength = 21, udSamesLength = 18, udPerfectMatch = 0}
+1  The  _  DET  _  _  3  det                     1  The  _  DET  _  _  3  det
+2  feasibility  _  NOUN  _  _  3  compound       2  feasibility  _  NOUN  _  _  3  compound
+3  study  _  NOUN  _  _  4  nsubj                3  study  _  NOUN  _  _  4  nsubj
+4  estimates  _  VERB  _  _  0  root             4  estimates  _  VERB  _  _  0  root
+5  that  _  SCONJ  _  _  8  mark                 5  that  _  SCONJ  _  _  8  mark
+6  it  _  PRON  _  _  8  expl               |    6  it  _  PRON  _  _  8  nsubj
+7  would  _  AUX  _  _  8  aux                   7  would  _  AUX  _  _  8  aux
+8  take  _  VERB  _  _  4  ccomp                 8  take  _  VERB  _  _  4  ccomp
+9  passengers  _  NOUN  _  _  8  iobj            9  passengers  _  NOUN  _  _  8  iobj
+10  about  _  ADV  _  _  11  advmod              10  about  _  ADV  _  _  11  advmod
+11  four  _  NUM  _  _  12  nummod               11  four  _  NUM  _  _  12  nummod
+12  minutes  _  NOUN  _  _  8  obj          |    12  minutes  _  NOUN  _  _  8  obl
+13  to  _  PART  _  _  14  mark                  13  to  _  PART  _  _  14  mark
+14  cross  _  VERB  _  _  8  csubj               14  cross  _  VERB  _  _  8  csubj
+15  the  _  DET  _  _  17  det                   15  the  _  DET  _  _  17  det
+16  Potomac  _  PROPN  _  _  17  compound        16  Potomac  _  PROPN  _  _  17  compound
+17  River  _  PROPN  _  _  14  obj               17  River  _  PROPN  _  _  14  obj
+18  on  _  ADP  _  _  20  case                   18  on  _  ADP  _  _  20  case
+19  the  _  DET  _  _  20  det                   19  the  _  DET  _  _  20  det
+20  gondola  _  NOUN  _  _  14  obl         |    20  gondola  _  NOUN  _  _  14  obj
+21  .  _  PUNCT  _  _  4  punct                  21  .  _  PUNCT  _  _  4  punct
+
+UDScore {udScore = 0.8636363636363636, udMatching = 0, udTotalLength = 22, udSamesLength = 19, udPerfectMatch = 0}
+1  it  _  PRON  _  _  4  nsubj:pass       |    1  It  _  PRON  _  _  3  nsubj
+2  has  _  AUX  _  _  3  aux                   2  has  _  AUX  _  _  3  aux
+3  been  _  AUX  _  _  4  aux:pass        |    3  been  _  AUX  _  _  3  aux:pass
+4  said  _  VERB  _  _  0  root                4  said  _  VERB  _  _  0  root
+5  that  _  _  _  _  18  mark             |    5  that  _  PRON  _  _  18  mark
+6  only  _  ADV  _  _  9  advmod               6  only  _  ADV  _  _  9  advmod
+7  a  _  DET  _  _  9  det                     7  a  _  DET  _  _  9  det
+8  hierarchical  _  ADJ  _  _  9  amod         8  hierarchical  _  ADJ  _  _  9  amod
+9  society  _  NOUN  _  _  18  nsubj           9  society  _  NOUN  _  _  18  nsubj
+10  with  _  ADP  _  _  13  case               10  with  _  ADP  _  _  13  case
+11  a  _  DET  _  _  13  det                   11  a  _  DET  _  _  13  det
+12  leisure  _  NOUN  _  _  13  compound       12  leisure  _  NOUN  _  _  13  compound
+13  class  _  NOUN  _  _  9  nmod              13  class  _  NOUN  _  _  9  nmod
+14  at  _  ADP  _  _  16  case                 14  at  _  ADP  _  _  16  case
+15  the  _  DET  _  _  16  det                 15  the  _  DET  _  _  16  det
+16  top  _  NOUN  _  _  13  nmod               16  top  _  NOUN  _  _  13  nmod
+17  can  _  AUX  _  _  18  aux                 17  can  _  AUX  _  _  18  aux
+18  produce  _  VERB  _  _  4  ccomp           18  produce  _  VERB  _  _  4  ccomp
+19  works  _  NOUN  _  _  18  obj              19  works  _  NOUN  _  _  18  obj
+20  of  _  ADP  _  _  21  case                 20  of  _  ADP  _  _  21  case
+21  art  _  NOUN  _  _  19  nmod               21  art  _  NOUN  _  _  19  nmod
+
+UDScore {udScore = 0.8695652173913043, udMatching = 0, udTotalLength = 23, udSamesLength = 20, udPerfectMatch = 0}
+1  he  _  PRON  _  _  3  nsubj         |    1  He  _  PRON  _  _  2  nsubj
+2  may  _  AUX  _  _  3  aux           |    2  may  _  AUX  _  _  2  aux
+3  accomplish  _  VERB  _  _  0  root       3  accomplish  _  VERB  _  _  0  root
+4  by  _  ADP  _  _  5  case                4  by  _  ADP  _  _  5  case
+5  craft  _  NOUN  _  _  3  obl             5  craft  _  NOUN  _  _  3  obl
+6  in  _  ADP  _  _  9  case                6  in  _  ADP  _  _  9  case
+7  the  _  DET  _  _  9  det                7  the  _  DET  _  _  9  det
+8  long  _  ADJ  _  _  9  amod              8  long  _  ADJ  _  _  9  amod
+9  run  _  NOUN  _  _  3  obl               9  run  _  NOUN  _  _  3  obl
+10  what  _  PRON  _  _  14  obj            10  what  _  PRON  _  _  14  obj
+11  he  _  PRON  _  _  14  nsubj            11  he  _  PRON  _  _  14  nsubj
+12  can  _  VERB  _  _  14  aux        |    12  can  _  AUX  _  _  14  aux
+13  not  _  PART  _  _  14  advmod          13  not  _  PART  _  _  14  advmod
+14  do  _  VERB  _  _  3  ccomp             14  do  _  VERB  _  _  3  ccomp
+15  by  _  ADP  _  _  16  case              15  by  _  ADP  _  _  16  case
+16  force  _  NOUN  _  _  14  obl           16  force  _  NOUN  _  _  14  obl
+17  and  _  SCONJ  _  _  18  cc        |    17  and  _  CCONJ  _  _  18  cc
+18  violence  _  NOUN  _  _  16  conj       18  violence  _  NOUN  _  _  16  conj
+19  in  _  ADP  _  _  22  case              19  in  _  ADP  _  _  22  case
+20  the  _  DET  _  _  22  det              20  the  _  DET  _  _  22  det
+21  short  _  ADJ  _  _  22  amod           21  short  _  ADJ  _  _  22  amod
+22  one  _  NUM  _  _  14  obl         |    22  one  _  NOUN  _  _  14  obl
+
+UDScore {udScore = 0.9090909090909091, udMatching = 1, udTotalLength = 11, udSamesLength = 10, udPerfectMatch = 0}
+1  Shenzhen  _  PROPN  _  _  4  nmod:poss       1  Shenzhen  _  PROPN  _  _  4  nmod:poss
+2  's  _  PART  _  _  1  case                   2  's  _  PART  _  _  1  case
+3  traffic  _  NOUN  _  _  4  compound     |    3  traffic  _  NOUN  _  _  4  nmod
+4  police  _  NOUN  _  _  6  nsubj              4  police  _  NOUN  _  _  6  nsubj
+5  have  _  AUX  _  _  6  aux                   5  have  _  AUX  _  _  6  aux
+6  opted  _  VERB  _  _  0  root                6  opted  _  VERB  _  _  0  root
+7  for  _  ADP  _  _  9  case                   7  for  _  ADP  _  _  9  case
+8  unconventional  _  ADJ  _  _  9  amod        8  unconventional  _  ADJ  _  _  9  amod
+9  penalties  _  NOUN  _  _  6  obl             9  penalties  _  NOUN  _  _  6  obl
+10  before  _  ADV  _  _  6  advmod             10  before  _  ADV  _  _  6  advmod
+11  .  _  PUNCT  _  _  6  punct            |    11  .  _  PUNCT>  _  _  6  punct
+
+UDScore {udScore = 0.9090909090909091, udMatching = 0, udTotalLength = 11, udSamesLength = 10, udPerfectMatch = 0}
+1  he  _  PRON  _  _  2  nsubj        |    1  He  _  PRON  _  _  2  nsubj
+2  collected  _  VERB  _  _  0  root       2  collected  _  VERB  _  _  0  root
+3  cards  _  NOUN  _  _  2  obj            3  cards  _  NOUN  _  _  2  obj
+4  and  _  CCONJ  _  _  5  cc              4  and  _  CCONJ  _  _  5  cc
+5  traded  _  VERB  _  _  2  conj          5  traded  _  VERB  _  _  2  conj
+6  them  _  PRON  _  _  5  obj             6  them  _  PRON  _  _  5  obj
+7  with  _  ADP  _  _  10  case            7  with  _  ADP  _  _  10  case
+8  the  _  DET  _  _  10  det              8  the  _  DET  _  _  10  det
+9  other  _  ADJ  _  _  10  amod           9  other  _  ADJ  _  _  10  amod
+10  boys  _  NOUN  _  _  5  obl            10  boys  _  NOUN  _  _  5  obl
+
+UDScore {udScore = 0.9166666666666666, udMatching = 0, udTotalLength = 24, udSamesLength = 22, udPerfectMatch = 0}
+1  the  _  DET  _  _  2  det           |    1  The  _  DET  _  _  2  det
+2  landslide  _  NOUN  _  _  9  nsubj       2  landslide  _  NOUN  _  _  9  nsubj
+3  he  _  PRON  _  _  4  nsubj              3  he  _  PRON  _  _  4  nsubj
+4  had  _  VERB  _  _  2  acl:relcl    |    4  had  _  AUX  _  _  2  acl
+5  in  _  ADP  _  _  8  case                5  in  _  ADP  _  _  8  case
+6  the  _  DET  _  _  8  det                6  the  _  DET  _  _  8  det
+7  electoral  _  ADJ  _  _  8  amod         7  electoral  _  ADJ  _  _  8  amod
+8  college  _  NOUN  _  _  4  obl           8  college  _  NOUN  _  _  4  obl
+9  obscured  _  VERB  _  _  0  root         9  obscured  _  VERB  _  _  0  root
+10  the  _  DET  _  _  11  det              10  the  _  DET  _  _  11  det
+11  narrowness  _  NOUN  _  _  9  obj       11  narrowness  _  NOUN  _  _  9  obj
+12  of  _  ADP  _  _  14  case              12  of  _  ADP  _  _  14  case
+13  a  _  DET  _  _  14  det                13  a  _  DET  _  _  14  det
+14  victory  _  NOUN  _  _  11  nmod        14  victory  _  NOUN  _  _  11  nmod
+15  based  _  VERB  _  _  14  acl           15  based  _  VERB  _  _  14  acl
+16  on  _  ADP  _  _  19  case              16  on  _  ADP  _  _  19  case
+17  just  _  ADV  _  _  18  advmod          17  just  _  ADV  _  _  18  advmod
+18  43  _  NUM  _  _  19  nummod            18  43  _  NUM  _  _  19  nummod
+19  %  _  SYM  _  _  15  obl                19  %  _  SYM  _  _  15  obl
+20  of  _  ADP  _  _  23  case              20  of  _  ADP  _  _  23  case
+21  the  _  DET  _  _  23  det              21  the  _  DET  _  _  23  det
+22  popular  _  ADJ  _  _  23  amod         22  popular  _  ADJ  _  _  23  amod
+23  vote  _  NOUN  _  _  19  nmod           23  vote  _  NOUN  _  _  19  nmod
+
+UDScore {udScore = 0.9333333333333333, udMatching = 1, udTotalLength = 15, udSamesLength = 14, udPerfectMatch = 0}
+1  This  _  DET  _  _  2  det                  1  This  _  DET  _  _  2  det
+2  discordance  _  NOUN  _  _  10  nsubj       2  discordance  _  NOUN  _  _  10  nsubj
+3  between  _  ADP  _  _  5  case              3  between  _  ADP  _  _  5  case
+4  economic  _  ADJ  _  _  5  amod             4  economic  _  ADJ  _  _  5  amod
+5  data  _  NOUN  _  _  2  nmod                5  data  _  NOUN  _  _  2  nmod
+6  and  _  CCONJ  _  _  8  cc                  6  and  _  CCONJ  _  _  8  cc
+7  political  _  ADJ  _  _  8  amod            7  political  _  ADJ  _  _  8  amod
+8  rhetoric  _  NOUN  _  _  5  conj            8  rhetoric  _  NOUN  _  _  5  conj
+9  is  _  AUX  _  _  10  cop              |    9  is  _  AUX  _  _  10  aux
+10  familiar  _  ADJ  _  _  0  root            10  familiar  _  ADJ  _  _  0  root
+11  ,  _  PUNCT  _  _  14  punct               11  ,  _  PUNCT  _  _  14  punct
+12  or  _  CCONJ  _  _  14  cc                 12  or  _  CCONJ  _  _  14  cc
+13  should  _  AUX  _  _  14  aux              13  should  _  AUX  _  _  14  aux
+14  be  _  AUX  _  _  10  conj                 14  be  _  AUX  _  _  10  conj
+15  .  _  PUNCT  _  _  10  punct               15  .  _  PUNCT  _  _  10  punct
+
+UDScore {udScore = 1.0, udMatching = 1, udTotalLength = 4, udSamesLength = 4, udPerfectMatch = 1}
+1  Who  _  PRON  _  _  0  root         1  Who  _  PRON  _  _  0  root
+2  are  _  AUX  _  _  1  cop           2  are  _  AUX  _  _  1  cop
+3  they  _  PRON  _  _  1  nsubj       3  they  _  PRON  _  _  1  nsubj
+4  ?  _  PUNCT  _  _  1  punct         4  ?  _  PUNCT  _  _  1  punct
+
+UDScore {udScore = 1.0, udMatching = 1, udTotalLength = 9, udSamesLength = 9, udPerfectMatch = 1}
+1  A  _  DET  _  _  3  det                1  A  _  DET  _  _  3  det
+2  small  _  ADJ  _  _  3  amod           2  small  _  ADJ  _  _  3  amod
+3  town  _  NOUN  _  _  7  nsubj          3  town  _  NOUN  _  _  7  nsubj
+4  with  _  ADP  _  _  6  case            4  with  _  ADP  _  _  6  case
+5  two  _  NUM  _  _  6  nummod           5  two  _  NUM  _  _  6  nummod
+6  minarets  _  NOUN  _  _  3  nmod       6  minarets  _  NOUN  _  _  3  nmod
+7  glides  _  NOUN  _  _  0  root    |    7  glides  _  VERB  _  _  0  root
+8  by  _  ADV  _  _  7  advmod            8  by  _  ADV  _  _  7  advmod
+9  .  _  PUNCT  _  _  7  punct            9  .  _  PUNCT  _  _  7  punct
+
+UDScore {udScore = 1.0, udMatching = 1, udTotalLength = 9, udSamesLength = 9, udPerfectMatch = 1}
+1  I  _  PRON  _  _  5  nsubj          1  I  _  PRON  _  _  5  nsubj
+2  was  _  AUX  _  _  5  cop           2  was  _  AUX  _  _  5  cop
+3  just  _  ADV  _  _  5  advmod       3  just  _  ADV  _  _  5  advmod
+4  a  _  DET  _  _  5  det             4  a  _  DET  _  _  5  det
+5  boy  _  NOUN  _  _  0  root         5  boy  _  NOUN  _  _  0  root
+6  with  _  ADP  _  _  8  case         6  with  _  ADP  _  _  8  case
+7  muddy  _  ADJ  _  _  8  amod        7  muddy  _  ADJ  _  _  8  amod
+8  shoes  _  NOUN  _  _  5  nmod       8  shoes  _  NOUN  _  _  5  nmod
+9  .  _  PUNCT  _  _  5  punct         9  .  _  PUNCT  _  _  5  punct
+
+UDScore {udScore = 1.0, udMatching = 1, udTotalLength = 12, udSamesLength = 12, udPerfectMatch = 1}
+1  The  _  DET  _  _  2  det                    1  The  _  DET  _  _  2  det
+2  study  _  NOUN  _  _  6  nsubj:pass          2  study  _  NOUN  _  _  6  nsubj:pass
+3  of  _  ADP  _  _  4  case                    3  of  _  ADP  _  _  4  case
+4  volcanoes  _  NOUN  _  _  2  nmod            4  volcanoes  _  NOUN  _  _  2  nmod
+5  is  _  AUX  _  _  6  aux:pass                5  is  _  AUX  _  _  6  aux:pass
+6  called  _  VERB  _  _  0  root               6  called  _  VERB  _  _  0  root
+7  volcanology  _  NOUN  _  _  6  xcomp         7  volcanology  _  NOUN  _  _  6  xcomp
+8  ,  _  PUNCT  _  _  7  punct                  8  ,  _  PUNCT  _  _  7  punct
+9  sometimes  _  ADV  _  _  10  advmod          9  sometimes  _  ADV  _  _  10  advmod
+10  spelled  _  VERB  _  _  7  acl              10  spelled  _  VERB  _  _  7  acl
+11  vulcanology  _  NOUN  _  _  10  xcomp       11  vulcanology  _  NOUN  _  _  10  xcomp
+12  .  _  PUNCT  _  _  6  punct                 12  .  _  PUNCT  _  _  6  punct
+
+UDScore {udScore = 1.0, udMatching = 1, udTotalLength = 13, udSamesLength = 13, udPerfectMatch = 1}
+1  It  _  PRON  _  _  3  nsubj:pass        1  It  _  PRON  _  _  3  nsubj:pass
+2  was  _  AUX  _  _  3  aux:pass          2  was  _  AUX  _  _  3  aux:pass
+3  conducted  _  VERB  _  _  0  root       3  conducted  _  VERB  _  _  0  root
+4  just  _  ADV  _  _  8  advmod           4  just  _  ADV  _  _  8  advmod
+5  off  _  ADP  _  _  8  case              5  off  _  ADP  _  _  8  case
+6  the  _  DET  _  _  8  det               6  the  _  DET  _  _  8  det
+7  Mexican  _  ADJ  _  _  8  amod          7  Mexican  _  ADJ  _  _  8  amod
+8  coast  _  NOUN  _  _  3  obl            8  coast  _  NOUN  _  _  3  obl
+9  from  _  ADP  _  _  10  case            9  from  _  ADP  _  _  10  case
+10  April  _  PROPN  _  _  3  obl          10  April  _  PROPN  _  _  3  obl
+11  to  _  ADP  _  _  12  case             11  to  _  ADP  _  _  12  case
+12  June  _  PROPN  _  _  10  nmod         12  June  _  PROPN  _  _  10  nmod
+13  .  _  PUNCT  _  _  3  punct            13  .  _  PUNCT  _  _  3  punct
+
+UDScore {udScore = 1.0, udMatching = 1, udTotalLength = 13, udSamesLength = 13, udPerfectMatch = 1}
+1  "  _  PUNCT  _  _  5  punct              1  "  _  PUNCT  _  _  5  punct
+2  Her  _  PRON  _  _  3  nmod:poss         2  Her  _  PRON  _  _  3  nmod:poss
+3  voice  _  NOUN  _  _  5  nsubj           3  voice  _  NOUN  _  _  5  nsubj
+4  literally  _  ADV  _  _  5  advmod       4  literally  _  ADV  _  _  5  advmod
+5  went  _  VERB  _  _  0  root             5  went  _  VERB  _  _  0  root
+6  around  _  ADP  _  _  8  case            6  around  _  ADP  _  _  8  case
+7  the  _  DET  _  _  8  det                7  the  _  DET  _  _  8  det
+8  world  _  NOUN  _  _  5  obl             8  world  _  NOUN  _  _  5  obl
+9  ,  _  PUNCT  _  _  5  punct              9  ,  _  PUNCT  _  _  5  punct
+10  "  _  PUNCT  _  _  5  punct             10  "  _  PUNCT  _  _  5  punct
+11  Leive  _  PROPN  _  _  12  nsubj        11  Leive  _  PROPN  _  _  12  nsubj
+12  said  _  VERB  _  _  5  parataxis       12  said  _  VERB  _  _  5  parataxis
+13  .  _  PUNCT  _  _  5  punct             13  .  _  PUNCT  _  _  5  punct
+
+UDScore {udScore = 1.0, udMatching = 1, udTotalLength = 14, udSamesLength = 14, udPerfectMatch = 1}
+1  A  _  DET  _  _  2  det                 1  A  _  DET  _  _  2  det
+2  witness  _  NOUN  _  _  3  nsubj        2  witness  _  NOUN  _  _  3  nsubj
+3  told  _  VERB  _  _  0  root            3  told  _  VERB  _  _  0  root
+4  police  _  NOUN  _  _  3  iobj          4  police  _  NOUN  _  _  3  iobj
+5  that  _  SCONJ  _  _  9  mark           5  that  _  SCONJ  _  _  9  mark
+6  the  _  DET  _  _  7  det               6  the  _  DET  _  _  7  det
+7  victim  _  NOUN  _  _  9  nsubj         7  victim  _  NOUN  _  _  9  nsubj
+8  had  _  AUX  _  _  9  aux               8  had  _  AUX  _  _  9  aux
+9  attacked  _  VERB  _  _  3  ccomp       9  attacked  _  VERB  _  _  3  ccomp
+10  the  _  DET  _  _  11  det             10  the  _  DET  _  _  11  det
+11  suspect  _  NOUN  _  _  9  obj         11  suspect  _  NOUN  _  _  9  obj
+12  in  _  ADP  _  _  13  case             12  in  _  ADP  _  _  13  case
+13  April  _  PROPN  _  _  9  obl          13  April  _  PROPN  _  _  9  obl
+14  .  _  PUNCT  _  _  3  punct            14  .  _  PUNCT  _  _  3  punct
+
+UDScore {udScore = 1.0, udMatching = 1, udTotalLength = 14, udSamesLength = 14, udPerfectMatch = 1}
+1  This  _  PRON  _  _  4  nsubj             1  This  _  PRON  _  _  4  nsubj
+2  has  _  AUX  _  _  4  aux                 2  has  _  AUX  _  _  4  aux
+3  not  _  PART  _  _  4  advmod             3  not  _  PART  _  _  4  advmod
+4  stopped  _  VERB  _  _  0  root           4  stopped  _  VERB  _  _  0  root
+5  investors  _  NOUN  _  _  4  obj          5  investors  _  NOUN  _  _  4  obj
+6  flocking  _  VERB  _  _  4  xcomp         6  flocking  _  VERB  _  _  4  xcomp
+7  to  _  PART  _  _  8  mark                7  to  _  PART  _  _  8  mark
+8  put  _  VERB  _  _  6  advcl              8  put  _  VERB  _  _  6  advcl
+9  their  _  PRON  _  _  10  nmod:poss       9  their  _  PRON  _  _  10  nmod:poss
+10  money  _  NOUN  _  _  8  obj             10  money  _  NOUN  _  _  8  obj
+11  in  _  ADP  _  _  13  case               11  in  _  ADP  _  _  13  case
+12  the  _  DET  _  _  13  det               12  the  _  DET  _  _  13  det
+13  funds  _  NOUN  _  _  8  obl             13  funds  _  NOUN  _  _  8  obl
+14  .  _  PUNCT  _  _  4  punct              14  .  _  PUNCT  _  _  4  punct
+

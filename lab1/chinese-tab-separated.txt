@@ -1,0 +1,458 @@
+# text = 他們是誰?
+# text_en = Who are they?
+1	他們	_	pos	_	_	head	label	_	_
+2	是	_	pos	_	_	head	label	_	_
+3	誰	_	pos	_	_	head	label	_	_
+4	?	_	pos	_	_	head	label	_	_
+
+
+# text = 一座有兩座宣禮塔的小鎮掠過。
+# text_en = A small town with two minarets glides by.
+1	一	_	pos	_	_	head	label	_	_
+2	座	_	pos	_	_	head	label	_	_
+3	有	_	pos	_	_	head	label	_	_
+4	兩	_	pos	_	_	head	label	_	_
+5	座	_	pos	_	_	head	label	_	_
+6	宣禮	_	pos	_	_	head	label	_	_
+7	塔	_	pos	_	_	head	label	_	_
+8	的	_	pos	_	_	head	label	_	_
+9	小	_	pos	_	_	head	label	_	_
+10	鎮	_	pos	_	_	head	label	_	_
+11	掠	_	pos	_	_	head	label	_	_
+12	過	_	pos	_	_	head	label	_	_
+13	。	_	pos	_	_	head	label	_	_
+
+
+# text = 我曾只是個穿著泥濘鞋子的男孩。
+# text_en = I was just a boy with muddy shoes.
+1	我	_	pos	_	_	head	label	_	_
+2	曾	_	pos	_	_	head	label	_	_
+3	只	_	pos	_	_	head	label	_	_
+4	是	_	pos	_	_	head	label	_	_
+5	個	_	pos	_	_	head	label	_	_
+6	穿	_	pos	_	_	head	label	_	_
+7	著	_	pos	_	_	head	label	_	_
+8	泥濘	_	pos	_	_	head	label	_	_
+9	鞋子	_	pos	_	_	head	label	_	_
+10	的	_	pos	_	_	head	label	_	_
+11	男	_	pos	_	_	head	label	_	_
+12	孩	_	pos	_	_	head	label	_	_
+13	。	_	pos	_	_	head	label	_	_
+
+
+# text = 深圳交警以前曾選用非常規處罰。
+# text_en = Shenzhen's traffic police have opted for unconventional penalties before.
+1	深圳	_	pos	_	_	head	label	_	_
+2	交	_	pos	_	_	head	label	_	_
+3	警	_	pos	_	_	head	label	_	_
+4	以前	_	pos	_	_	head	label	_	_
+5	曾	_	pos	_	_	head	label	_	_
+6	選用	_	pos	_	_	head	label	_	_
+7	非	_	pos	_	_	head	label	_	_
+8	常規	_	pos	_	_	head	label	_	_
+9	處罰	_	pos	_	_	head	label	_	_
+10	。	_	pos	_	_	head	label	_	_
+
+
+# text = 對火山的研究叫做火山學(volcanology)，有時又拚作vulcanology。
+# text_en = The study of volcanoes is called volcanology, sometimes spelled vulcanology.
+1	對	_	pos	_	_	head	label	_	_
+2	火山	_	pos	_	_	head	label	_	_
+3	的	_	pos	_	_	head	label	_	_
+4	研究	_	pos	_	_	head	label	_	_
+5	叫	_	pos	_	_	head	label	_	_
+6	做	_	pos	_	_	head	label	_	_
+7	火山	_	pos	_	_	head	label	_	_
+8	學	_	pos	_	_	head	label	_	_
+9	(	_	pos	_	_	head	label	_	_
+10	volcanology	_	pos	_	_	head	label	_	_
+11	)	_	pos	_	_	head	label	_	_
+12	，	_	pos	_	_	head	label	_	_
+13	有時	_	pos	_	_	head	label	_	_
+14	又	_	pos	_	_	head	label	_	_
+15	拚	_	pos	_	_	head	label	_	_
+16	作	_	pos	_	_	head	label	_	_
+17	vulcanology	_	pos	_	_	head	label	_	_
+18	。	_	pos	_	_	head	label	_	_
+
+
+# text = 從四月至六月在墨西哥海岸外舉行。
+# text_en = It was conducted just off the Mexican coast from April to June.
+1	從	_	pos	_	_	head	label	_	_
+2	四	_	pos	_	_	head	label	_	_
+3	月	_	pos	_	_	head	label	_	_
+4	至	_	pos	_	_	head	label	_	_
+5	六	_	pos	_	_	head	label	_	_
+6	月	_	pos	_	_	head	label	_	_
+7	在	_	pos	_	_	head	label	_	_
+8	墨西哥	_	pos	_	_	head	label	_	_
+9	海	_	pos	_	_	head	label	_	_
+10	岸	_	pos	_	_	head	label	_	_
+11	外	_	pos	_	_	head	label	_	_
+12	舉行	_	pos	_	_	head	label	_	_
+13	。	_	pos	_	_	head	label	_	_
+
+
+# text = “她的聲音確實傳遍了世界。”，萊夫說
+# text_en =" Her voice literally went around the world," Leive said.
+1	“	_	pos	_	_	head	label	_	_
+2	她	_	pos	_	_	head	label	_	_
+3	的	_	pos	_	_	head	label	_	_
+4	聲音	_	pos	_	_	head	label	_	_
+5	確實	_	pos	_	_	head	label	_	_
+6	傳	_	pos	_	_	head	label	_	_
+7	遍	_	pos	_	_	head	label	_	_
+8	了	_	pos	_	_	head	label	_	_
+9	世界	_	pos	_	_	head	label	_	_
+10	。	_	pos	_	_	head	label	_	_
+11	”	_	pos	_	_	head	label	_	_
+12	，	_	pos	_	_	head	label	_	_
+13	萊夫	_	pos	_	_	head	label	_	_
+14	說	_	pos	_	_	head	label	_	_
+
+
+# text = 一名目擊者告訴警方，受害人於四月份襲擊了嫌疑人。
+# text_en = A witness told police that the victim had attacked the suspect in April.
+1	一	_	pos	_	_	head	label	_	_
+2	名	_	pos	_	_	head	label	_	_
+3	目擊	_	pos	_	_	head	label	_	_
+4	者	_	pos	_	_	head	label	_	_
+5	告訴	_	pos	_	_	head	label	_	_
+6	警方	_	pos	_	_	head	label	_	_
+7	，	_	pos	_	_	head	label	_	_
+8	受害	_	pos	_	_	head	label	_	_
+9	人	_	pos	_	_	head	label	_	_
+10	於	_	pos	_	_	head	label	_	_
+11	四	_	pos	_	_	head	label	_	_
+12	月份	_	pos	_	_	head	label	_	_
+13	襲擊	_	pos	_	_	head	label	_	_
+14	了	_	pos	_	_	head	label	_	_
+15	嫌疑	_	pos	_	_	head	label	_	_
+16	人	_	pos	_	_	head	label	_	_
+17	。	_	pos	_	_	head	label	_	_
+
+
+# text = 當一個名人的名字最初相當罕見時，這一點最明顯。
+# text_en = It's most obvious when a celebrity's name is initially quite rare.
+1	當	_	pos	_	_	head	label	_	_
+2	一	_	pos	_	_	head	label	_	_
+3	個	_	pos	_	_	head	label	_	_
+4	名	_	pos	_	_	head	label	_	_
+5	人	_	pos	_	_	head	label	_	_
+6	的	_	pos	_	_	head	label	_	_
+7	名字	_	pos	_	_	head	label	_	_
+8	最初	_	pos	_	_	head	label	_	_
+9	相當	_	pos	_	_	head	label	_	_
+10	罕	_	pos	_	_	head	label	_	_
+11	見	_	pos	_	_	head	label	_	_
+12	時	_	pos	_	_	head	label	_	_
+13	，	_	pos	_	_	head	label	_	_
+14	這	_	pos	_	_	head	label	_	_
+15	點	_	pos	_	_	head	label	_	_
+16	最	_	pos	_	_	head	label	_	_
+17	明顯	_	pos	_	_	head	label	_	_
+18	。	_	pos	_	_	head	label	_	_
+
+
+# text = 這並沒有阻止投資者蜂擁而至，將資金注入該基金。
+# text_en = This has not stopped investors flocking to put their money in the funds.
+1	這	_	pos	_	_	head	label	_	_
+2	並	_	pos	_	_	head	label	_	_
+3	沒	_	pos	_	_	head	label	_	_
+4	有	_	pos	_	_	head	label	_	_
+5	阻止	_	pos	_	_	head	label	_	_
+6	投資	_	pos	_	_	head	label	_	_
+7	者	_	pos	_	_	head	label	_	_
+8	蜂	_	pos	_	_	head	label	_	_
+9	擁	_	pos	_	_	head	label	_	_
+10	而	_	pos	_	_	head	label	_	_
+11	至	_	pos	_	_	head	label	_	_
+12	，	_	pos	_	_	head	label	_	_
+13	將	_	pos	_	_	head	label	_	_
+14	資金	_	pos	_	_	head	label	_	_
+15	注	_	pos	_	_	head	label	_	_
+16	入	_	pos	_	_	head	label	_	_
+17	該	_	pos	_	_	head	label	_	_
+18	基金	_	pos	_	_	head	label	_	_
+19	。	_	pos	_	_	head	label	_	_
+
+
+# text = 這種經濟數據和政治評論之間的不和諧，大家都很熟悉，或者說應該很熟悉。
+# text_en = This discordance between economic data and political rhetoric is familiar, or should be.
+1	這	_	pos	_	_	head	label	_	_
+2	種	_	pos	_	_	head	label	_	_
+3	經濟	_	pos	_	_	head	label	_	_
+4	數據	_	pos	_	_	head	label	_	_
+5	和	_	pos	_	_	head	label	_	_
+6	政治	_	pos	_	_	head	label	_	_
+7	評論	_	pos	_	_	head	label	_	_
+8	之間	_	pos	_	_	head	label	_	_
+9	的	_	pos	_	_	head	label	_	_
+10	不	_	pos	_	_	head	label	_	_
+11	和諧	_	pos	_	_	head	label	_	_
+12	，	_	pos	_	_	head	label	_	_
+13	大家	_	pos	_	_	head	label	_	_
+14	都	_	pos	_	_	head	label	_	_
+15	很	_	pos	_	_	head	label	_	_
+16	熟悉	_	pos	_	_	head	label	_	_
+17	，	_	pos	_	_	head	label	_	_
+18	或者	_	pos	_	_	head	label	_	_
+19	說	_	pos	_	_	head	label	_	_
+20	應該	_	pos	_	_	head	label	_	_
+21	很	_	pos	_	_	head	label	_	_
+22	熟悉	_	pos	_	_	head	label	_	_
+23	。	_	pos	_	_	head	label	_	_
+
+
+# text = 可行性研究估計，乘客乘坐纜車過波托馬克河大約需要4分鐘。
+# text_en = The feasibility study estimates that it would take passengers about four minutes to cross the Potomac River on the gondola.
+1	可行性	_	pos	_	_	head	label	_	_
+2	研究	_	pos	_	_	head	label	_	_
+3	估計	_	pos	_	_	head	label	_	_
+4	，	_	pos	_	_	head	label	_	_
+5	乘客	_	pos	_	_	head	label	_	_
+6	乘坐	_	pos	_	_	head	label	_	_
+7	纜車	_	pos	_	_	head	label	_	_
+8	過	_	pos	_	_	head	label	_	_
+9	波托馬克	_	pos	_	_	head	label	_	_
+10	河	_	pos	_	_	head	label	_	_
+11	大約	_	pos	_	_	head	label	_	_
+12	需要	_	pos	_	_	head	label	_	_
+13	4	_	pos	_	_	head	label	_	_
+14	分鐘	_	pos	_	_	head	label	_	_
+15	。	_	pos	_	_	head	label	_	_
+
+
+# text = 他收集卡片並與其他男孩交換。
+# text_en = he collected cards and traded them with the other boys.
+1	他	_	pos	_	_	head	label	_	_
+2	收集	_	pos	_	_	head	label	_	_
+3	卡片	_	pos	_	_	head	label	_	_
+4	並	_	pos	_	_	head	label	_	_
+5	與	_	pos	_	_	head	label	_	_
+6	其他	_	pos	_	_	head	label	_	_
+7	男孩	_	pos	_	_	head	label	_	_
+8	交換	_	pos	_	_	head	label	_	_
+9	。	_	pos	_	_	head	label	_	_
+
+
+# text = 這項罪行可判處五年徒刑。
+# text_en = this crime carries a penalty of five years in prison.
+1	這	_	pos	_	_	head	label	_	_
+2	項	_	pos	_	_	head	label	_	_
+3	罪行	_	pos	_	_	head	label	_	_
+4	可	_	pos	_	_	head	label	_	_
+5	判處	_	pos	_	_	head	label	_	_
+6	五	_	pos	_	_	head	label	_	_
+7	年	_	pos	_	_	head	label	_	_
+8	徒刑	_	pos	_	_	head	label	_	_
+9	。	_	pos	_	_	head	label	_	_
+
+
+# text = 這消息傳遍了全省的每個村莊。
+# text_en = the news was carried to every village in the province.
+1	這	_	pos	_	_	head	label	_	_
+2	消息	_	pos	_	_	head	label	_	_
+3	傳	_	pos	_	_	head	label	_	_
+4	遍	_	pos	_	_	head	label	_	_
+5	了	_	pos	_	_	head	label	_	_
+6	全	_	pos	_	_	head	label	_	_
+7	省	_	pos	_	_	head	label	_	_
+8	的	_	pos	_	_	head	label	_	_
+9	每	_	pos	_	_	head	label	_	_
+10	個	_	pos	_	_	head	label	_	_
+11	村莊	_	pos	_	_	head	label	_	_
+12	。	_	pos	_	_	head	label	_	_
+
+
+# text = 我腦海裡浮現著這些想法。
+# text_en = I carry these thoughts in the back of my head.
+1	我	_	pos	_	_	head	label	_	_
+2	腦海	_	pos	_	_	head	label	_	_
+3	裡	_	pos	_	_	head	label	_	_
+4	浮現	_	pos	_	_	head	label	_	_
+5	著	_	pos	_	_	head	label	_	_
+6	這	_	pos	_	_	head	label	_	_
+7	些	_	pos	_	_	head	label	_	_
+8	想法	_	pos	_	_	head	label	_	_
+9	。	_	pos	_	_	head	label	_	_
+
+
+# text = 亞當應該被流傳在永恆的生命中。
+# text_en = Adam would have been carried over into the life eternal.
+1	亞當	_	pos	_	_	head	label	_	_
+2	應該	_	pos	_	_	head	label	_	_
+3	被	_	pos	_	_	head	label	_	_
+4	流傳	_	pos	_	_	head	label	_	_
+5	在	_	pos	_	_	head	label	_	_
+6	永恆	_	pos	_	_	head	label	_	_
+7	的	_	pos	_	_	head	label	_	_
+8	生命	_	pos	_	_	head	label	_	_
+9	中	_	pos	_	_	head	label	_	_
+10	。	_	pos	_	_	head	label	_	_
+
+
+# text = 箱體已經腐爛，必須更換。
+# text_en = the casings had rotted away and had to be replaced.
+1	箱	_	pos	_	_	head	label	_	_
+2	體	_	pos	_	_	head	label	_	_
+3	已經	_	pos	_	_	head	label	_	_
+4	腐爛	_	pos	_	_	head	label	_	_
+5	，	_	pos	_	_	head	label	_	_
+6	必須	_	pos	_	_	head	label	_	_
+7	更換	_	pos	_	_	head	label	_	_
+8	。	_	pos	_	_	head	label	_	_
+
+
+# text = 她很氣憤，這丫頭竟然敢害她在全班同學面前出醜。
+# text_en = she was incensed that this chit of a girl should dare to make a fool of her in front of the class.
+1	她	_	pos	_	_	head	label	_	_
+2	很	_	pos	_	_	head	label	_	_
+3	氣憤	_	pos	_	_	head	label	_	_
+4	，	_	pos	_	_	head	label	_	_
+5	這	_	pos	_	_	head	label	_	_
+6	丫頭	_	pos	_	_	head	label	_	_
+7	竟然	_	pos	_	_	head	label	_	_
+8	敢	_	pos	_	_	head	label	_	_
+9	害	_	pos	_	_	head	label	_	_
+10	她	_	pos	_	_	head	label	_	_
+11	在	_	pos	_	_	head	label	_	_
+12	全	_	pos	_	_	head	label	_	_
+13	班	_	pos	_	_	head	label	_	_
+14	同學	_	pos	_	_	head	label	_	_
+15	面	_	pos	_	_	head	label	_	_
+16	前	_	pos	_	_	head	label	_	_
+17	出醜	_	pos	_	_	head	label	_	_
+18	。	_	pos	_	_	head	label	_	_
+
+
+# text = 他在選舉團中的壓倒性優勢掩蓋了基於43％的普選票的勝利的狹隘性。
+# text_en = the landslide he had in the electoral college obscured the narrowness of a victory based on just 43% of the popular vote.
+1	他	_	pos	_	_	head	label	_	_
+2	在	_	pos	_	_	head	label	_	_
+3	選舉	_	pos	_	_	head	label	_	_
+4	團	_	pos	_	_	head	label	_	_
+5	中	_	pos	_	_	head	label	_	_
+6	的	_	pos	_	_	head	label	_	_
+7	壓倒性	_	pos	_	_	head	label	_	_
+8	優勢	_	pos	_	_	head	label	_	_
+9	掩蓋	_	pos	_	_	head	label	_	_
+10	了	_	pos	_	_	head	label	_	_
+11	基	_	pos	_	_	head	label	_	_
+12	於	_	pos	_	_	head	label	_	_
+13	43	_	pos	_	_	head	label	_	_
+14	％	_	pos	_	_	head	label	_	_
+15	的	_	pos	_	_	head	label	_	_
+16	普	_	pos	_	_	head	label	_	_
+17	選	_	pos	_	_	head	label	_	_
+18	票	_	pos	_	_	head	label	_	_
+19	的	_	pos	_	_	head	label	_	_
+20	勝利	_	pos	_	_	head	label	_	_
+21	的	_	pos	_	_	head	label	_	_
+22	狹隘性	_	pos	_	_	head	label	_	_
+23	。	_	pos	_	_	head	label	_	_
+
+
+# text = 現在美軍在急救包中攜帶了阿托品和自動注射器，以備有機磷神經毒劑中毒時使用。
+# text_en = United States troops now carry atropine and autoinjectors in their first-aid kits to use in case of organophosphate nerve agent poisoning.
+1	現在	_	pos	_	_	head	label	_	_
+2	美	_	pos	_	_	head	label	_	_
+3	軍	_	pos	_	_	head	label	_	_
+4	在	_	pos	_	_	head	label	_	_
+5	急救	_	pos	_	_	head	label	_	_
+6	包	_	pos	_	_	head	label	_	_
+7	中	_	pos	_	_	head	label	_	_
+8	攜帶	_	pos	_	_	head	label	_	_
+9	了	_	pos	_	_	head	label	_	_
+10	阿托品	_	pos	_	_	head	label	_	_
+11	和	_	pos	_	_	head	label	_	_
+12	自動	_	pos	_	_	head	label	_	_
+13	注射	_	pos	_	_	head	label	_	_
+14	器，以	_	pos	_	_	head	label	_	_
+15	備	_	pos	_	_	head	label	_	_
+16	有機	_	pos	_	_	head	label	_	_
+17	磷	_	pos	_	_	head	label	_	_
+18	神經	_	pos	_	_	head	label	_	_
+19	毒劑	_	pos	_	_	head	label	_	_
+20	中毒	_	pos	_	_	head	label	_	_
+21	時	_	pos	_	_	head	label	_	_
+22	使用	_	pos	_	_	head	label	_	_
+23	。	_	pos	_	_	head	label	_	_
+
+
+# text = 他可以通過功夫在長期內完成他在短期內無法通過武力和暴力完成的事情。
+# text_en = he may accomplish by craft in the long run what he cannot do by force and violence in the short one.
+1	他	_	pos	_	_	head	label	_	_
+2	可以	_	pos	_	_	head	label	_	_
+3	通過	_	pos	_	_	head	label	_	_
+4	功夫	_	pos	_	_	head	label	_	_
+5	在	_	pos	_	_	head	label	_	_
+6	長期	_	pos	_	_	head	label	_	_
+7	內	_	pos	_	_	head	label	_	_
+8	完成	_	pos	_	_	head	label	_	_
+9	他	_	pos	_	_	head	label	_	_
+10	在	_	pos	_	_	head	label	_	_
+11	短期	_	pos	_	_	head	label	_	_
+12	內	_	pos	_	_	head	label	_	_
+13	無法	_	pos	_	_	head	label	_	_
+14	通過	_	pos	_	_	head	label	_	_
+15	武力	_	pos	_	_	head	label	_	_
+16	和	_	pos	_	_	head	label	_	_
+17	暴力	_	pos	_	_	head	label	_	_
+18	完成	_	pos	_	_	head	label	_	_
+19	的	_	pos	_	_	head	label	_	_
+20	事情	_	pos	_	_	head	label	_	_
+21	。	_	pos	_	_	head	label	_	_
+
+
+# text = 有人說，只有一個有上層休閒階層的等級制社會才能生產藝術品。
+# text_en = it has been said that only a hierarchical society with a leisure class at the top can produce works of art.
+1	有	_	pos	_	_	head	label	_	_
+2	人	_	pos	_	_	head	label	_	_
+3	說	_	pos	_	_	head	label	_	_
+4	，	_	pos	_	_	head	label	_	_
+5	只	_	pos	_	_	head	label	_	_
+6	有	_	pos	_	_	head	label	_	_
+7	一	_	pos	_	_	head	label	_	_
+8	個	_	pos	_	_	head	label	_	_
+9	有	_	pos	_	_	head	label	_	_
+10	上層	_	pos	_	_	head	label	_	_
+11	休閒	_	pos	_	_	head	label	_	_
+12	階層	_	pos	_	_	head	label	_	_
+13	的	_	pos	_	_	head	label	_	_
+14	等級	_	pos	_	_	head	label	_	_
+15	制	_	pos	_	_	head	label	_	_
+16	社會	_	pos	_	_	head	label	_	_
+17	才	_	pos	_	_	head	label	_	_
+18	能	_	pos	_	_	head	label	_	_
+19	生產	_	pos	_	_	head	label	_	_
+20	藝術	_	pos	_	_	head	label	_	_
+21	品	_	pos	_	_	head	label	_	_
+22	。	_	pos	_	_	head	label	_	_
+
+
+# text = 他天真的解釋，如果他沒有想到主教在裡面，他也不會燒毀教堂。
+# text_en = his ingenuous explanation that he would not have burned the church if he had not thought the bishop was in it.
+1	他	_	pos	_	_	head	label	_	_
+2	天真	_	pos	_	_	head	label	_	_
+3	的	_	pos	_	_	head	label	_	_
+4	解釋	_	pos	_	_	head	label	_	_
+5	，	_	pos	_	_	head	label	_	_
+6	如果	_	pos	_	_	head	label	_	_
+7	他	_	pos	_	_	head	label	_	_
+8	沒有	_	pos	_	_	head	label	_	_
+9	想	_	pos	_	_	head	label	_	_
+10	到	_	pos	_	_	head	label	_	_
+11	主教	_	pos	_	_	head	label	_	_
+12	在	_	pos	_	_	head	label	_	_
+13	裡面	_	pos	_	_	head	label	_	_
+14	，	_	pos	_	_	head	label	_	_
+15	他	_	pos	_	_	head	label	_	_
+16	也	_	pos	_	_	head	label	_	_
+17	不	_	pos	_	_	head	label	_	_
+18	會	_	pos	_	_	head	label	_	_
+19	燒毀	_	pos	_	_	head	label	_	_
+20	教堂	_	pos	_	_	head	label	_	_
+21	。	_	pos	_	_	head	label	_	_
+
+

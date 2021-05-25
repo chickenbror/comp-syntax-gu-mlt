@@ -1,0 +1,484 @@
+# text = 他們是誰?
+
+[Utt[QS[Comp[NP[Pron 他們]]][cop 是][IP 誰]][Punct ?]]
+QS ::= Comp cop IP # head cop nsubj	
+Comp ::= NP
+NP ::= Pron
+
+								
+# text_en = Who are they?									
+1	他們	_	PRON	_	_	3	nsubj	_	_
+2	是	_	AUX	_	_	3	cop	_	_
+3	誰	_	PRON	_	_	0	root	_	_
+4	?	_	PUNCT	_	_	3	punct	_	_
+									
+									
+# text = 一座有兩座宣禮塔的小鎮掠過。									
+# text_en = A small town with two minarets glides by.									
+1	一	_	NUM	_	_	10	nummod	_	_
+2	座	_	NOUN	_	_	10	clf	_	_
+3	有	_	VERB	_	_	10	acl:relcl	_	_
+4	兩	_	NUM	_	_	7	nummod	_	_
+5	座	_	NOUN	_	_	7	clf	_	_
+6	宣禮	_	NOUN	_	_	7	compound	_	_
+7	塔	_	NOUN	_	_	3	obj	_	_
+8	的	_	PART	_	_	3	mark:relcl	_	_
+9	小	_	ADJ	_	_	10	amod	_	_
+10	鎮	_	NOUN	_	_	11	nsubj	_	_
+11	掠	_	VERB	_	_	0	root	_	_
+12	過	_	VERB	_	_	11	compound:dir	_	_
+13	。	_	PUNCT	_	_	11	punct	_	_
+									
+									
+# text = 我曾只是個穿著泥濘鞋子的男孩。									
+# text_en = I was just a boy with muddy shoes.									
+1	我	_	PRON	_	_	12	nsubj	_	_
+2	曾	_	ADV	_	_	12	advmod	_	_
+3	只	_	ADV	_	_	12	advmod	_	_
+4	是	_	COP	_	_	12	cop	_	_
+5	個	_	NOUN	_	_	12	clf	_	_
+6	穿	_	VERB	_	_	12	acl:relcl	_	_
+7	著	_	PART	_	_	6	aux	_	_
+8	泥濘	_	ADJ	_	_	9	amod	_	_
+9	鞋子	_	NOUN	_	_	6	obj	_	_
+10	的	_	PART	_	_	6	mark:relcl	_	_
+11	男	_	ADJ	_	_	12	amod	_	_
+12	孩	_	NOUN	_	_	0	root	_	_
+13	。	_	PUNCT	_	_	12	punct	_	_
+									
+									
+# text = 深圳交警以前曾選用非常規處罰。									
+# text_en = Shenzhen's traffic police have opted for unconventional penalties before.									
+1	深圳	_	PROPN	_	_	3	compound	_	_
+2	交	_	NOUN	_	_	3	compound	_	_
+3	警	_	NOUN	_	_	6	nsubj	_	_
+4	以前	_	NOUN	_	_	5	obl:tmod	_	_
+5	曾	_	ADV	_	_	5	advmod	_	_
+6	選用	_	VERB	_	_	0	root	_	_
+7	非	_	AUX	_	_	8	cop	_	_
+8	常規	_	ADJ	_	_	9	amod	_	_
+9	處罰	_	NOUN	_	_	6	obj	_	_
+10	。	_	PUNCT	_	_	6	punct	_	_
+									
+									
+# text = 對火山的研究叫作火山學(volcanology)，有時又拚作vulcanology。									
+# text_en = The study of volcanoes is called volcanology, sometimes spelled vulcanology.									
+1	對	_	ADP	_	_	2	case	_	_
+2	火山	_	NOUN	_	_	4	nmod	_	_
+3	的	_	PART	_	_	2	case	_	_
+4	研究	_	NOUN	_	_	5	nsubj	_	_
+5	叫	_	VERB	_	_	0	root	_	_
+6	作	_	VERB	_	_	5	mark:prt	_	_
+7	火山	_	NOUN	_	_	8	compound	_	_
+8	學	_	NOUN	_	_	5	obj	_	_
+9	(	_	PUNCT	_	_	10	punct	_	_
+10	volcanology	_	X	_	_	8	appos	_	_
+11	)	_	PUNCT	_	_	10	punct	_	_
+12	，	_	PUNCT	_	_	8	punct	_	_
+13	有時	_	ADV	_	_	15	advmod	_	_
+14	又	_	ADV	_	_	15	advmod	_	_
+15	拚	_	VERB	_	_	5	ccomp	_	_
+16	作	_	VERB	_	_	15	mark:prt	_	_
+17	vulcanology	_	X	_	_	15	obj	_	_
+18	。	_	PUNCT	_	_	5	punct	_	_
+									
+									
+# text = 從四月至六月在墨西哥海岸外舉行。									
+# text_en = It was conducted just off the Mexican coast from April to June.									
+1	從	_	ADP	_	_	3	case	_	_
+2	四	_	NUM	_	_	3	nummod	_	_
+3	月	_	NOUN	_	_	12	obl	_	_
+4	至	_	ADP	_	_	6	cc	_	_
+5	六	_	NUM	_	_	6	nummod	_	_
+6	月	_	NOUN	_	_	3	conj	_	_
+7	在	_	ADP	_	_	10	case	_	_
+8	墨西哥	_	PROPN	_	_	10	compound	_	_
+9	海	_	NOUN	_	_	10	compound	_	_
+10	岸	_	NOUN	_	_	12	obl	_	_
+11	外	_	ADP	_	_	10	case:loc	_	_
+12	舉行	_	VERB	_	_	0	root	_	_
+13	。	_	PUNCT	_	_	12	punct	_	_
+									
+									
+# text = “她的聲音確實傳遍了世界。”萊夫說。									
+# text_en =" Her voice literally went around the world," Leive said.									
+1	“	_	PUNCT	_	_	6	punct	_	_
+2	她	_	PRON	_	_	6	nmod:poss	_	_
+3	的	_	PART	_	_	2	case	_	_
+4	聲音	_	NOUN	_	_	6	nsubj	_	_
+5	確實	_	ADV	_	_	6	advmod	_	_
+6	傳	_	VERB	_	_	13	dep	_	_
+7	遍	_	VERB	_	_	6	compound:vv	_	_
+8	了	_	PART	_	_	6	aux	_	_
+9	世界	_	NOUN	_	_	6	obj	_	_
+10	。	_	PUNCT	_	_	6	punct	_	_
+11	”	_	PUNCT	_	_	6	punct	_	_
+12	萊夫	_	PROPN	_	_	13	nsubj	_	_
+13	說	_	VERB	_	_	0	root	_	_
+14	。	_	PUNCT	_	_	13	punct	_	_
+									
+									
+# text = 一名目擊者告訴警方，受害人於四月份襲擊了嫌疑人。									
+# text_en = A witness told police that the victim had attacked the suspect in April.									
+1	一	_	NUM	_	_	4	nummod	_	_
+2	名	_	NOUN	_	_	4	clf	_	_
+3	目擊	_	VERB	_	_	4	acl	_	_
+4	者	_	NOUN	_	_	5	nsubj	_	_
+5	告訴	_	VERB	_	_	0	root	_	_
+6	警方	_	NOUN	_	_	5	obj	_	_
+7	，	_	PUNCT	_	_	5	punct	_	_
+8	受害	_	VERB	_	_	9	acl	_	_
+9	人	_	NOUN	_	_	13	nsubj	_	_
+10	於	_	ADP	_	_	12	case	_	_
+11	四	_	NUM	_	_	12	nummod	_	_
+12	月份	_	NOUN	_	_	13	obl	_	_
+13	襲擊	_	VERB	_	_	5	ccomp	_	_
+14	了	_	PART	_	_	13	aux	_	_
+15	嫌疑	_	NOUN	_	_	16	compound	_	_
+16	人	_	NOUN	_	_	13	obj	_	_
+17	。	_	PUNCT	_	_	5	punct	_	_
+									
+									
+# text = 當一個名人的名字最初相當罕見時，這一點最明顯。									
+# text_en = It's most obvious when a celebrity's name is initially quite rare.									
+1	當	_	ADP	_	_	11	mark	_	_
+2	一	_	NUM	_	_	7	nummod	_	_
+3	個	_	PART	_	_	7	clf	_	_
+4	名	_	ADJ	_	_	5	amod	_	_
+5	人	_	NOUN	_	_	7	nmod:poss	_	_
+6	的	_	PART	_	_	5	case	_	_
+7	名字	_	NOUN	_	_	11	nsubj	_	_
+8	最初	_	NOUN	_	_	11	obl:tmod	_	_
+9	相當	_	ADV	_	_	10	advmod	_	_
+10	罕	_	ADV	_	_	11	advmod	_	_
+11	見	_	VERB	_	_	17	xcomp	_	_
+12	時	_	NOUN	_	_	11	mark	_	_
+13	，	_	PUNCT	_	_	11	punct	_	_
+14	這	_	DET	_	_	15	det	_	_
+15	點	_	NOUN	_	_	17	nsubj	_	_
+16	最	_	ADV	_	_	17	advmod	_	_
+17	明顯	_	ADJ	_	_	0	root	_	_
+18	。	_	PUNCT	_	_	17	punct	_	_
+									
+									
+# text = 這並沒有阻止投資者蜂擁而至，將資金注入該基金。									
+# text_en = This has not stopped investors flocking to put their money in the funds.									
+1	這	_	DET	_	_	5	nsubj	_	_
+2	並	_	ADV	_	_	5	advmod	_	_
+3	沒	_	AUX	_	_	5	aux	_	_
+4	有	_	AUX	_	_	3	compound:vv	_	_
+5	阻止	_	VERB	_	_	0	root	_	_
+6	投資	_	NOUN	_	_	7	compound	_	_
+7	者	_	NOUN	_	_	5	obj	_	_
+8	蜂	_	NOUN	_	_	9	obl	_	_
+9	擁	_	VERB	_	_	11	advcl	_	_
+10	而	_	ADV	_	_	11	advmod	_	_
+11	至	_	VERB	_	_	15	advcl	_	_
+12	，	_	PUNCT	_	_	11	punct	_	_
+13	將	_	ADP	_	_	14	case	_	_
+14	資金	_	NOUN	_	_	15	obl:patient	_	_
+15	注	_	VERB	_	_	5	xcomp	_	_
+16	入	_	ADP	_	_	18	case	_	_
+17	該	_	DET	_	_	18	det	_	_
+18	基金	_	NOUN	_	_	15	obj	_	_
+19	。	_	PUNCT	_	_	5	punct	_	_
+									
+									
+# text = 這種經濟數據和政治評論之間的不和諧，大家都很熟悉，或者說應該很熟悉。									
+# text_en = This discordance between economic data and political rhetoric is familiar, or should be.									
+1	這	_	DET	_	_	11	det	_	_
+2	種	_	NOUN	_	_	11	clf	_	_
+3	經濟	_	NOUN	_	_	4	compound	_	_
+4	數據	_	NOUN	_	_	11	label	_	_
+5	和	_	CCONJ	_	_	7	cc	_	_
+6	政治	_	NOUN	_	_	7	compound	_	_
+7	評論	_	NOUN	_	_	4	conj	_	_
+8	之間	_	ADP	_	_	4	case:loc	_	_
+9	的	_	PART	_	_	11	case	_	_
+10	不	_	ADJ	_	_	11	amod	_	_
+11	和諧	_	NOUN	_	_	16	ccomp	_	_
+12	，	_	PUNCT	_	_	11	punct	_	_
+13	大家	_	PRON	_	_	16	nsubj	_	_
+14	都	_	ADV	_	_	16	advmod	_	_
+15	很	_	ADV	_	_	16	advmod	_	_
+16	熟悉	_	ADJ	_	_	0	root	_	_
+17	，	_	PUNCT	_	_	16	punct	_	_
+18	或者	_	ADV	_	_	19	advmod	_	_
+19	說	_	VERB	_	_	22	advcl	_	_
+20	應該	_	AUX	_	_	22	aux	_	_
+21	很	_	ADV	_	_	22	advmod	_	_
+22	熟悉	_	ADJ	_	_	16	ccomp	_	_
+23	。	_	PUNCT	_	_	16	punct	_	_
+									
+									
+# text = 可行性研究估計，乘客乘坐纜車過波托馬克河大約需要4分鐘。									
+# text_en = The feasibility study estimates that it would take passengers about four minutes to cross the Potomac River on the gondola.									
+1	可行性	_	NOUN	_	_	2	compound	_	_
+2	研究	_	NOUN	_	_	3	nsubj	_	_
+3	估計	_	VERB	_	_	0	root	_	_
+4	，	_	PUNCT	_	_	3	punct	_	_
+5	乘客	_	NOUN	_	_	6	nsubj	_	_
+6	乘坐	_	VERB	_	_	12	xcomp	_	_
+7	纜車	_	NOUN	_	_	6	obj	_	_
+8	過	_	VERB	_	_	6	compound:dir	_	_
+9	波托馬克	_	PROPN	_	_	10	compound	_	_
+10	河	_	NOUN	_	_	8	obj	_	_
+11	大約	_	ADV	_	_	12	advmod	_	_
+12	需要	_	VERB	_	_	3	ccomp	_	_
+13	4	_	NUM	_	_	14	nummod	_	_
+14	分鐘	_	NOUN	_	_	12	obj	_	_
+15	。	_	PUNCT	_	_	3	punct	_	_
+									
+									
+# text = 他收集卡片並與其他男孩交換。									
+# text_en = He collected cards and traded them with the other boys.									
+1	他	_	PRON	_	_	2	nsubj	_	_
+2	收集	_	VERB	_	_	8	advcl	_	_
+3	卡片	_	NOUN	_	_	2	obj	_	_
+4	並	_	ADV	_	_	8	advmod	_	_
+5	與	_	ADP	_	_	7	case	_	_
+6	其他	_	DET	_	_	7	det	_	_
+7	男孩	_	NOUN	_	_	8	obl	_	_
+8	交換	_	VERB	_	_	0	root	_	_
+9	。	_	PUNCT	_	_	8	punct	_	_
+									
+									
+# text = 這項罪行可判處五年徒刑。	
+[Utt[S[NP[Det 這][N 項][N 罪行]][aux 可][VP [V2 判處][NP [nmod 五年][NP 徒刑]]]][Punct 。]]
+S ::= NP aux? VP  # nsubj aux head
+VP ::= V2 NP  # head obj
+NP ::= NP NP  # nmod head 
+								
+# text_en = This crime carries a penalty of five years in prison.									
+1	這	_	DET	_	_	3	det	_	_
+2	項	_	NOUN	_	_	3	clf	_	_
+3	罪行	_	NOUN	_	_	5	nsubj	_	_
+4	可	_	AUX	_	_	5	aux	_	_
+5	判處	_	VERB	_	_	0	root	_	_
+6	五	_	NUM	_	_	7	nummod	_	_
+7	年	_	NOUN	_	_	8	nmod	_	_
+8	徒刑	_	NOUN	_	_	5	obj	_	_
+9	。	_	PUNCT	_	_	5	punct	_	_
+									
+									
+# text = 這消息傳遍了全省的每個村莊。									
+# text_en = The news was carried to every village in the province.									
+1	這	_	DET	_	_	2	det	_	_
+2	消息	_	NOUN	_	_	3	nsubj	_	_
+3	傳	_	VERB	_	_	0	root	_	_
+4	遍	_	ADV	_	_	3	compound:vv	_	_
+5	了	_	PART	_	_	3	aux	_	_
+6	全	_	DET	_	_	7	det	_	_
+7	省	_	NOUN	_	_	11	nmod	_	_
+8	的	_	PART	_	_	7	case	_	_
+9	每	_	DET	_	_	11	det	_	_
+10	個	_	NOUN	_	_	11	clf	_	_
+11	村莊	_	NOUN	_	_	3	obj	_	_
+12	。	_	PUNCT	_	_	3	punct	_	_
+									
+									
+# text = 我腦海裡浮現著這些想法。	
+[Utt[S[NP[NP_poss[Pron_poss 我]][CN [N腦海]][N 裡]][VP[V2 浮現][PART 著][NP[Det 這][N 些][N 想法]]]][Punct 。]]
+S ::= NP aux? VP  # nsubj aux head
+VP ::= V2 PART? NP  # head aux obj
+NP ::= NP NP  # head flat
+NP ::= NP_poss CN # nmod:poss head
+NP_poss ::= Pron_poss
+NP ::= Det? N? N  # det clf head
+CN ::= N
+							
+# text_en = I carry these thoughts in the back of my head.									
+1	我	_	PRON	_	_	2	nmod:poss	_	_
+2	腦海	_	NOUN	_	_	4	obl	_	_
+3	裡	_	ADP	_	_	2	case:loc	_	_
+4	浮現	_	VERB	_	_	0	root	_	_
+5	著	_	PART	_	_	4	aux	_	_
+6	這	_	DET	_	_	8	det	_	_
+7	些	_	NOUN	_	_	8	clf	_	_
+8	想法	_	NOUN	_	_	4	obj	_	_
+9	。	_	PUNCT	_	_	4	punct	_	_
+									
+									
+# text = 亞當應該被流傳在永恆的生命中。									
+# text_en = Adam would have been carried over into the life eternal.									
+1	亞當	_	PROPN	_	_	4	nsubj:pass	_	_
+2	應該	_	AUX	_	_	4	aux	_	_
+3	被	_	AUX	_	_	4	aux:pass	_	_
+4	流傳	_	VERB	_	_	0	root	_	_
+5	在	_	ADP	_	_	8	case	_	_
+6	永恆	_	ADJ	_	_	8	amod	_	_
+7	的	_	PART	_	_	6	mark:rel	_	_
+8	生命	_	NOUN	_	_	4	obl	_	_
+9	中	_	ADP	_	_	8	case:loc	_	_
+10	。	_	PUNCT	_	_	4	punct	_	_
+									
+									
+# text = 箱體已經腐爛，必須更換。
+[Utt[S[NP 箱體][Adv 已經][VP[V 腐爛]][S_direct[colon ，][S [aux 必須][VP 更換]]]][Punct 。]]
+S ::=  NP VP S_direct #  nsubj head parataxis
+S_direct ::= colon S # punct head
+S ::= NP? Adv? aux? VP  # nsubj adv aux head
+								
+# text_en = The casings had rotted away and had to be replaced.									
+1	箱	_	NOUN	_	_	2	compound	_	_
+2	體	_	NOUN	_	_	4	nsubj	_	_
+3	已經	_	ADV	_	_	4	advmod	_	_
+4	腐爛	_	VERB	_	_	0	root	_	_
+5	，	_	PUNCT	_	_	4	punct	_	_
+6	必須	_	AUX	_	_	7	aux	_	_
+7	更換	_	VERB	_	_	4	parataxis	_	_
+8	。	_	PUNCT	_	_	4	punct	_	_
+									
+									
+# text = 她很氣憤，這丫頭竟然敢害她在全班同學面前出醜。									
+# text_en = She was incensed that this chit of a girl should dare to make a fool of her in front of the class.									
+1	她	_	PRON	_	_	3	nsubj	_	_
+2	很	_	ADV	_	_	3	advmod	_	_
+3	氣憤	_	ADJ	_	_	0	root	_	_
+4	，	_	PUNCT	_	_	3	punct	_	_
+5	這	_	DET	_	_	6	det	_	_
+6	丫頭	_	NOUN	_	_	8	nsubj	_	_
+7	竟然	_	ADV	_	_	8	advmod	_	_
+8	敢	_	VERB	_	_	3	ccomp	_	_
+9	害	_	VERB	_	_	8	ccomp	_	_
+10	她	_	PRON	_	_	17	nsubj	_	_
+11	在	_	ADP	_	_	15	case	_	_
+12	全	_	DET	_	_	13	det	_	_
+13	班	_	NOUN	_	_	14	nmod	_	_
+14	同學	_	NOUN	_	_	15	nmod	_	_
+15	面	_	NOUN	_	_	17	obl	_	_
+16	前	_	ADP	_	_	15	case:loc	_	_
+17	出醜	_	VERB	_	_	9	xcomp	_	_
+18	。	_	PUNCT	_	_	3	punct	_	_
+									
+									
+# text = 他在選舉團中的壓倒性優勢掩蓋了基於43％的普選票的勝利的狹隘性。									
+# text_en = The landslide he had in the electoral college obscured the narrowness of a victory based on just 43% of the popular vote.									
+1	他	_	PRON	_	_	8	nmod:pass	_	_
+2	在	_	ADP	_	_	4	case	_	_
+3	選舉	_	NOUN	_	_	4	compound	_	_
+4	團	_	NOUN	_	_	8	nmod	_	_
+5	中	_	ADP	_	_	4	case:loc	_	_
+6	的	_	PART	_	_	4	mark:rel	_	_
+7	壓倒性	_	NOUN	_	_	8	nmod	_	_
+8	優勢	_	NOUN	_	_	9	nsubj	_	_
+9	掩蓋	_	VERB	_	_	0	root	_	_
+10	了	_	PART	_	_	9	aux	_	_
+11	基	_	VERB	_	_	20	acl	_	_
+12	於	_	VERB	_	_	11	compoud:vv	_	_
+13	43	_	NOUN	_	_	14	nummod	_	_
+14	％	_	SYM	_	_	18	nmod	_	_
+15	的	_	PART	_	_	14	mark:rel	_	_
+16	普	_	ADJ	_	_	17	amod	_	_
+17	選	_	NOUN	_	_	18	compound	_	_
+18	票	_	NOUN	_	_	11	obj	_	_
+19	的	_	PART	_	_	11	mark:rel	_	_
+20	勝利	_	NOUN	_	_	22	nmod	_	_
+21	的	_	PART	_	_	20	case	_	_
+22	狹隘性	_	NOUN	_	_	9	obj	_	_
+23	。	_	PUNCT	_	_	9	punct	_	_
+									
+									
+# text = 現在美軍在急救包中攜帶了阿托品和自動注射器，以備有機磷神經毒劑中毒時使用。									
+# text_en = United States troops now carry atropine and autoinjectors in their first-aid kits to use in case of organophosphate nerve agent poisoning.									
+1	現在	_	NOUN	_	_	8	oblLtmod	_	_
+2	美	_	PROPN	_	_	3	compound	_	_
+3	軍	_	NOUN	_	_	8	nsubj	_	_
+4	在	_	ADP	_	_	6	case	_	_
+5	急救	_	NOUN	_	_	6	compound	_	_
+6	包	_	NOUN	_	_	8	obl	_	_
+7	中	_	ADP	_	_	6	case:loc	_	_
+8	攜帶	_	VERB	_	_	0	root	_	_
+9	了	_	PART	_	_	8	aux	_	_
+10	阿托品	_	NOUN	_	_	8	obj	_	_
+11	和	_	CCONJ	_	_	14	cc	_	_
+12	自動	_	ADJ	_	_	14	label	_	_
+13	注射	_	NOUN	_	_	14	compound	_	_
+14	器	_	NOUN	_	_	10	conj	_	_
+15	，	_	PUNCT	_	_	8	punct	_	_
+16	以	_	ADV	_	_	17	advmod	_	_
+17	備	_	VERB	_	_	8	parataxis	_	_
+18	有機	_	ADJ	_	_	19	amod	_	_
+19	磷	_	NOUN	_	_	21	compound	_	_
+20	神經	_	NOUN	_	_	21	compound	_	_
+21	毒劑	_	NOUN	_	_	22	nsubj	_	_
+22	中毒	_	VERB	_	_	24	xcomp	_	_
+23	時	_	ADP	_	_	22	case	_	_
+24	使用	_	VERB	_	_	17	xcomp	_	_
+25	。	_	PUNCT	_	_	17	punct	_	_
+									
+									
+# text = 他可以通過功夫在長期內完成他在短期內無法通過武力和暴力完成的事情。									
+# text_en = He may accomplish by craft in the long run what he cannot do by force and violence in the short one.									
+1	他	_	PRON	_	_	8	nsubj	_	_
+2	可以	_	AUX	_	_	8	aux	_	_
+3	通過	_	ADP	_	_	4	case	_	_
+4	功夫	_	NOUN	_	_	8	obl	_	_
+5	在	_	ADP	_	_	6	case	_	_
+6	長期	_	NOUN	_	_	8	obl	_	_
+7	內	_	ADP	_	_	6	case:loc	_	_
+8	完成	_	VERB	_	_	0	root	_	_
+9	他	_	PRON	_	_	13	nsubj	_	_
+10	在	_	ADP	_	_	11	case	_	_
+11	短期	_	NOUN	_	_	13	obl	_	_
+12	內	_	ADP	_	_	11	case:loc	_	_
+13	無法	_	VERB	_	_	20	acl	_	_
+14	通過	_	ADP	_	_	15	case	_	_
+15	武力	_	NOUN	_	_	18	obl	_	_
+16	和	_	CCONJ	_	_	17	cc	_	_
+17	暴力	_	NOUN	_	_	15	conj	_	_
+18	完成	_	VERB	_	_	13	xcomp	_	_
+19	的	_	PART	_	_	13	mark:rel	_	_
+20	事情	_	NOUN	_	_	8	obj	_	_
+21	。	_	PUNCT	_	_	8	punct	_	_
+									
+									
+# text = 有人說，只有一個有上層休閒階層的等級制社會才能生產藝術品。									
+# text_en = it has been said that only a hierarchical society with a leisure class at the top can produce works of art.									
+1	有	_	VERB	_	_	0	root	_	_
+2	人	_	NOUN	_	_	1	nsubj	_	_
+3	說	_	VERB	_	_	2	ccomp	_	_
+4	，	_	PUNCT	_	_	3	punct	_	_
+5	只	_	ADV	_	_	6	advmod	_	_
+6	有	_	VERB	_	_	3	ccomp	_	_
+7	一	_	NUM	_	_	16	nummod	_	_
+8	個	_	NOUN	_	_	16	clf	_	_
+9	有	_	VERB	_	_	16	acl	_	_
+10	上層	_	ADJ	_	_	11	amod	_	_
+11	休閒	_	NOUN	_	_	11	compound	_	_
+12	階層	_	NOUN	_	_	9	obj	_	_
+13	的	_	PART	_	_	9	mark:rel	_	_
+14	等級	_	NOUN	_	_	15	compound	_	_
+15	制	_	NOUN	_	_	16	nmod	_	_
+16	社會	_	NOUN	_	_	19	nsubj	_	_
+17	才	_	ADV	_	_	19	advmod	_	_
+18	能	_	AUX	_	_	19	aux	_	_
+19	生產	_	VERB	_	_	6	ccomp	_	_
+20	藝術	_	NOUN	_	_	21	compound	_	_
+21	品	_	NOUN	_	_	19	obj	_	_
+22	。	_	PUNCT	_	_	3	punct	_	_
+									
+									
+# text = 他天真的解釋，如果他沒有想到主教在裡面，他也不會燒毀教堂。									
+# text_en = his ingenuous explanation that he would not have burned the church if he had not thought the bishop was in it.									
+1	他	_	PRON	_	_	4	nsubj	_	_
+2	天真	_	ADJ	_	_	4	advmod	_	_
+3	的	_	PART	_	_	2	mark:adv	_	_
+4	解釋	_	VERB	_	_	0	root	_	_
+5	，	_	PUNCT	_	_	4	punct	_	_
+6	如果	_	ADP	_	_	8	mark	_	_
+7	他	_	PRON	_	_	8	nsubj	_	_
+8	沒有	_	VERB	_	_	19	xcomp	_	_
+9	想	_	VERB	_	_	8	xcomp	_	_
+10	到	_	VERB	_	_	8	compound:vv	_	_
+11	主教	_	NOUN	_	_	13	dep	_	_
+12	在	_	ADP	_	_	13	case	_	_
+13	裡面	_	NOUN	_	_	9	obj	_	_
+14	，	_	PUNCT	_	_	4	punct	_	_
+15	他	_	PRON	_	_	19	nsubj	_	_
+16	也	_	ADV	_	_	19	advmod	_	_
+17	不	_	ADV	_	_	19	advmod	_	_
+18	會	_	AUX	_	_	19	aux	_	_
+19	燒毀	_	VERB	_	_	4	ccomp	_	_
+20	教堂	_	NOUN	_	_	19	obj	_	_
+21	。	_	PUNCT	_	_	4	punct	_	_
